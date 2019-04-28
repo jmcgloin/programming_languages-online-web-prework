@@ -6,7 +6,7 @@ def reformat_languages(languages)
     |lang|
     language_hash[lang.key] => {
       :type => lang.val
-      :style => 
+      :style => languages.key(lang)
     }
   end
   binding.pry
