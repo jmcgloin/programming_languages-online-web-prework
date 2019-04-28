@@ -15,9 +15,9 @@ def reformat_languages(languages)
            :style => Array(style)
         }
         
-        binding.pry
+        # binding.pry
       end
-      # binding.pry
+      binding.pry
     end
   # binding.pry
   end
