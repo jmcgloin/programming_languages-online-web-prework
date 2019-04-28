@@ -12,7 +12,7 @@ def reformat_languages(languages)
       else
         language_hash[lang] = {
            :type => languages[style][lang][:type],
-           :style => Array(style)
+           :style => style
         }
         
         # binding.pry
