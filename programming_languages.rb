@@ -11,7 +11,7 @@ def reformat_languages(languages)
         language_hash[lang][:style] << style
       else
         language_hash[lang] = {
-          :type => 
+          # :type => 
         }
   binding.pry
 end
