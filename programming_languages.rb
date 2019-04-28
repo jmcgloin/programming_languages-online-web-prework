@@ -2,7 +2,8 @@ require 'pry'
 
 def reformat_languages(languages)
   language_hash = {}
-  num_styles = languages.length
+  languages.values.each do
+    |
   
   binding.pry
 end
