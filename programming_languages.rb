@@ -8,6 +8,6 @@ def reformat_languages(languages)
       :type => lang.values,
       :style => languages.key(lang)
     }
-  end
   binding.pry
+  end
 end
