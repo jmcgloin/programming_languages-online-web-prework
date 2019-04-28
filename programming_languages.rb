@@ -4,42 +4,10 @@ def reformat_languages(languages)
   language_hash = Hash.new
   languages.values.each do
     |lang|
-    language_hash[lang.key] = {
+    language_hash[lang] = {
       :type => lang.val,
       :style => languages.key(lang)
     }
   end
+  binding.pry
 end
-
-
-# reformat_languages({
-#   :oo => {
-#     :ruby => {
-#       :type => "interpreted"
-#     },
-#     :javascript => {
-#       :type => "interpreted"
-#     },
-#     :python => {
-#       :type => "interpreted"
-#     },
-#     :java => {
-#       :type => "compiled"
-#     }
-#   },
-#   :functional => {
-#     :clojure => {
-#       :type => "compiled"
-#     },
-#     :erlang => {
-#       :type => "compiled"
-#     },
-#     :scala => {
-#       :type => "compiled"
-#     },
-#     :javascript => {
-#       :type => "interpreted"
-#     }
- 
-#   }
-# })
