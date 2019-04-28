@@ -7,6 +7,6 @@ def reformat_languages(languages)
     |style|
     languages[style].keys.each do
       |lang|
-      
+      if language_hash.has_key?()
   binding.pry
 end
