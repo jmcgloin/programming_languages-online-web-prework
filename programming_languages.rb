@@ -14,6 +14,8 @@ def reformat_languages(languages)
            :type => languages[style][lang][:type],
            :style => Array(style)
         }
+        
+        binding.pry
       end
       # binding.pry
     end
