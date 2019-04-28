@@ -8,7 +8,5 @@ def reformat_languages(languages)
       :type => lang.val,
       :style => languages.key(lang)
     }
-  binding.pry
   end
-  language_hash
 end
