@@ -17,7 +17,7 @@ def reformat_languages(languages)
         
         language_hash[lang][:style].push(style)
         
-        # binding.pry
+        binding.pry
       end
       # binding.pry
     end
